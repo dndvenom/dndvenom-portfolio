@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DND | Video Editor Portfolio</title>
+    <meta name="description"
+        content="Portfolio of DND [DNDVENOM], a passionate Video Editor specializing in gaming montages, cinematic edits, and storytelling.">
+
+    <link rel="stylesheet" href="style.css?v=5">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Custom Cursor Canvas & Elements -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <canvas id="cursor-particles"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">DND<span>VENOM</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#portfolio">Videos</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content fade-in-section">
+            <h1 class="glitch-title" data-text="DND [DNDVENOM]">DND [DNDVENOM]</h1>
+            <h2 class="subtitle">Video Editor / Visual Artist</h2>
+            <p class="tagline">Crafting visual adrenaline through seamless cuts, beat synchronization, and cinematic
+                storytelling.</p>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/dndvenomm/" class="social-btn" target="_blank"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@dndvenom" class="social-btn" target="_blank" aria-label="YouTube"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="https://x.com/dndvenom" class="social-btn" target="_blank" aria-label="Twitter"><i
+                        class="fab fa-twitter"></i></a>
+            </div>
+
+            <a href="#portfolio" class="cta-btn mt-8">Explore Visuals</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding section-border">
+        <div class="container fade-in-section">
+            <h2 class="section-title">SYSTEM_IDENTITY<span>: ABOUT</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A passionate video editor specializing in gaming montages, cinematic edits, and storytelling
+                        through editing. Skilled in beat synchronization, smooth transitions, color grading, and
+                        cinematic effects.</p>
+                    <p>My goal is to elevate ordinary gameplay into an immersive, high-octane cinematic experience that
+                        leaves viewers breathless. Every cut has a purpose, every effect drives the narrative.</p>
+                </div>
+                <div class="tech-stack">
+                    <div class="tech-item">DaVinci Resolve</div>
+                    <div class="tech-item">CapCut</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests section-padding section-border">
+        <div class="container fade-in-section">
+            <h2 class="section-title">CORE_MODULES<span>: INTERESTS</span></h2>
+            <div class="interest-grid">
+                <div class="interest-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Gaming</h3>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-film"></i>
+                    <h3>Video Editing</h3>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-camera-retro"></i>
+                    <h3>Photography</h3>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Music</h3>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Cinematic Storytelling</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding section-border">
+        <div class="container fade-in-section">
+            <h2 class="section-title">DATA_ARCHIVES<span>: VIDEOS</span></h2>
+            <div class="video-grid">
+                <!-- Replace src with your REAL youtube embed links -->
+                <!-- Copy and paste this block for more videos -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/g6K167zBrOQ?si=jCbxkO7pAIrj1Mk_"
+                            title="They Call Him OG - HYPE CUT" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- End Video Block -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/b_KiCZS-zho?si=rN0l9HRHmyxEZYRW"
+                            title="ASVR - OORUM BLOOD" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="gallery section-padding section-border">
+        <div class="container fade-in-section">
+            <h2 class="section-title">VISUAL_ASSETS<span>: GALLERY</span></h2>
+            <div class="gallery-grid">
+                <!-- Replace src with your ACTUAL photo paths/links -->
+                <!-- Copy and paste this block for more photos -->
+                <div class="gallery-item tilt-card">
+                    <img src="images/IMG_2819.jpg" alt="Hotel Munnar">
+                </div>
+                <!-- End Photo Block -->
+                <div class="gallery-item tilt-card">
+                    <img src="images/sunbuilding.jpg" alt="Sunset Building">
+                </div>
+
+                <div class="gallery-item tilt-card">
+                    <img src="images/IMG_2654.jpg" alt="Sunrays Hut">
+                </div>
+
+                <div class="gallery-item tilt-card">
+                    <img src="images/IMG_1803.jpg" alt="Mountain View">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding section-border">
+        <div class="container fade-in-section">
+            <h2 class="section-title">INITIATE_CONTACT<span>: LINKS</span></h2>
+            <div class="contact-content">
+                <p>Ready to level up your visuals? Establish a connection below.</p>
+                <div class="contact-links">
+                    <a href="YOUR_EMAIL_HERE" class="contact-btn email" aria-label="Email Me">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email Me</span>
+                    </a>
+                    <a href="https://www.instagram.com/dndvenomm/" class="contact-btn insta" target="_blank"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.youtube.com/@dndvenom" class="contact-btn yt" target="_blank"
+                        aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://x.com/dndvenom" class="contact-btn twitter" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DND [DNDVENOM]. System Online.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
