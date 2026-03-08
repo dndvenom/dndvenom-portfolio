@@ -188,12 +188,12 @@ nav {
     font-size: 3rem;
     margin-bottom: 60px;
     text-align: center;
-    color: rgba(254, 254, 254, 0.1);
+    color: #ffffff;
     position: relative;
 }
 
 .section-title span {
-    color: var(--color-text-main);
+    color: #ff003c;
 }
 
 .section-border {
